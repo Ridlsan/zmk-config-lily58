@@ -70,7 +70,7 @@
             bindings = <&kp LA(X)>;
             label = "CUT";
         };
-        
+
         paste: paste {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -167,7 +167,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans    &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &kp HOME  &kp UP    &kp END    &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans     &trans  &trans
+&trans  &trans  &cut    &copy   &paste  &trans  &trans    &trans  &trans  &trans    &trans    &trans     &trans  &trans
                         &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans
             >;
         };
