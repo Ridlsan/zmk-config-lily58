@@ -77,6 +77,27 @@
             bindings = <&kp LA(V)>;
             label = "PASTE";
         };
+
+        undo: undo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(Z)>;
+            label = "UNDO";
+        };
+
+        redo: redo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(Y)>;
+            label = "REDO";
+        };
+
+        redo: redo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(Y)>;
+            label = "REDO";
+        };
     };
 
     keymap {
