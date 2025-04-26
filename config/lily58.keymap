@@ -57,11 +57,11 @@
             label = "WORD_RIGHT";
         };
 
-        copy: text {
+        copy: copy {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LA(C)>;
-            label = "copy";
+            label = "COPY";
         };
 
         cut: cut {
@@ -69,6 +69,13 @@
             #binding-cells = <0>;
             bindings = <&kp LA(X)>;
             label = "CUT";
+        };
+        
+        paste: paste {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(V)>;
+            label = "PASTE";
         };
     };
 
