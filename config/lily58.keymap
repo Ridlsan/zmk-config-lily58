@@ -119,8 +119,8 @@
         mac_right {
             bindings = <
 &trans  &trans       &trans           &trans         &trans         &trans                               &trans        &trans                 &trans           &trans             &trans          &trans
-&trans  &kp AT_SIGN  &kp QUESTION     &kp SEMICOLON  &kp KP_COMMA   &kp SQT                              &kp KP_PLUS   &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &trans          &trans
-&trans  &kp DOLLAR   &kp EXCLAMATION  &kp COLON      &kp KP_DOT     &kp DOUBLE_QUOTES                    &kp KP_EQUAL  &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp UNDERSCORE  &trans
+&trans  &kp AT_SIGN  &kp QUESTION     &kp SEMICOLON  &kp COMMA      &kp SQT                              &kp KP_PLUS   &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &trans          &trans
+&trans  &kp DOLLAR   &kp EXCLAMATION  &kp COLON      &kp DOT        &kp DOUBLE_QUOTES                    &kp KP_EQUAL  &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp UNDERSCORE  &trans
 &trans  &trans       &kp PERCENT      &kp PIPE       &kp AMPERSAND  &kp TILDE          &trans    &trans  &kp KP_MINUS  &kp KP_ASTERISK        &kp LT           &kp GT             &trans          &trans
                                       &trans         &trans         &trans             &trans    &trans  &trans        &trans                 &kp N0
             >;
