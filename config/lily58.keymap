@@ -52,42 +52,42 @@
         word_right: word_right {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LG(RIGHT) &kp LS(T)>;
+            bindings = <&kp LG(RIGHT)>;
             label = "WORD_RIGHT";
         };
 
         copy: copy {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(C)>;
+            bindings = <&kp LG(C)>;
             label = "COPY";
         };
 
         cut: cut {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(X)>;
+            bindings = <&kp LG(X)>;
             label = "CUT";
         };
 
         paste: paste {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(V)>;
+            bindings = <&kp LG(V)>;
             label = "PASTE";
         };
 
         undo: undo {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(Z)>;
+            bindings = <&kp LG(Z)>;
             label = "UNDO";
         };
 
         redo: redo {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(Y)>;
+            bindings = <&kp LG(Y)>;
             label = "REDO";
         };
     };
