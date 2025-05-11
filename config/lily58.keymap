@@ -147,7 +147,7 @@
 
         dots {
             bindings = <
-&trans  &trans       &trans           &trans         &trans         &trans                               &trans        &trans                 &trans           &trans             &trans          &trans
+&kp F1  &kp F2       &kp F3           &kp F4         &kp F5         &kp F6                               &trans        &trans                 &trans           &trans             &trans          &trans
 &trans  &kp AT_SIGN  &kp QUESTION     &kp SEMICOLON  &kp COMMA      &kp DOUBLE_QUOTES                    &kp KP_PLUS   &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &trans          &trans
 &trans  &kp DOLLAR   &kp EXCLAMATION  &kp COLON      &kp DOT        &kp SINGLE_QUOTE                     &kp KP_EQUAL  &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp UNDERSCORE  &trans
 &trans  &trans       &kp PERCENT      &kp PIPE       &kp AMPERSAND  &kp TILDE          &trans    &trans  &kp KP_MINUS  &kp KP_ASTERISK        &kp LT           &kp GT             &trans          &trans
@@ -157,7 +157,7 @@
 
         brackets {
             bindings = <
-&trans  &trans       &trans             &trans            &trans                 &trans                          &trans        &trans                 &trans           &trans             &trans          &trans
+&kp F7  &kp F8       &kp F9             &kp F10           &kp F11                &kp F12                         &trans        &trans                 &trans           &trans             &trans          &trans
 &trans  &kp AT_SIGN  &kp RIGHT_BRACKET  &kp RIGHT_BRACE   &kp RIGHT_PARENTHESIS  &kp KP_PLUS                     &kp KP_PLUS   &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &trans          &trans
 &trans  &kp UNDER    &kp LEFT_BRACKET   &kp LEFT_BRACE    &kp LEFT_PARENTHESIS   &kp KP_EQUAL                    &kp KP_EQUAL  &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp UNDERSCORE  &trans
 &trans  &trans       &kp LESS_THAN      &kp GREATER_THAN  &kp KP_MULTIPLY        &kp MINUS     &trans    &trans  &kp KP_MINUS  &kp KP_ASTERISK        &kp LT           &kp GT             &trans          &trans
